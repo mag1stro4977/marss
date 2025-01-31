@@ -1,0 +1,186 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 140px;
+    border-bottom: 2px solid rgba(222, 219, 219, 1);
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between; /* Первый элемент уйдёт в начало, второй — в конец */
+    align-items: center;
+    height: 100%;
+}
+
+main {
+    height: 884px;
+    background-color: rgba(250, 250, 250, 1);
+}
+
+.container {
+    width: 1220px;
+    margin: 0 auto;
+}
+
+header a {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.57px;
+    color: rgba(66, 66, 66, 1);
+}
+
+.lang-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.login-page {
+    width: 660px;
+    height: 800px;
+    border-radius: 50px;
+    margin: 0 auto;
+    border: 1px solid rgba(222, 219, 219, 1);
+    padding: 66px 50px 37px 65px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.login-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 131px;
+}
+
+.login-header div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.login-header div a {
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    text-decoration: none;
+    color: rgba(240, 64, 15, 1);
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58.09px;
+    color: rgba(14, 13, 93, 1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.select-type {
+    width: 533px;
+    height: 70px;
+    border-radius: 20px;
+    background-color: rgba(245, 245, 245, 1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 39px;
+}
+
+.student {
+    font-family: sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33.89px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.parent {
+    font-family: sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33.89px;
+    color: rgba(117, 117, 117, 1);
+}
+
+.select-type div {
+    background-color: white;
+    width: 255px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+input {
+    width: 533px;
+    height: 70px;
+    border: 1px solid rgba(117, 117, 117, 0.19);
+    background-color: rgba(245, 245, 245, 1);
+    border-radius: 20px;
+    outline: none;
+    display: flex;
+    align-items: center;
+    padding-left: 51px;
+}
+
+input::placeholder {
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px;
+    color: rgba(117, 117, 117, 0.7);
+}
+
+.inp-mb {
+    margin-bottom: 39px;
+}
+
+.inp-mb-2 {
+    margin-bottom: 18px;
+}
+
+.qr-text {
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.05px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.64);
+    margin-bottom: 31px;
+}
+
+.eye {
+    transform: translate(1700%, -240%);
+    display: inline;
+}
+
+button {
+    width: 202px;
+    height: 67px;
+    border-radius: 20px;
+    background-color: rgba(246, 158, 134, 1);
+    border: none;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29.05px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: end;
+}
